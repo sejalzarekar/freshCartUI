@@ -1,0 +1,19 @@
+/* BestSellingProducts.css or any CSS file */
+.special-offer-banner {
+    
+    background-color: #fff8e5; /* light yellowish */
+    color: #fbbf24; /* golden-yellow text */
+    padding: 12px 20px;
+    border-radius: 50px; /* fully rounded corners */
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease; /* smooth hover transition */
+  }
+  
+  .special-offer-banner:hover {
+    background-color: #fbbf24; /* orange/golden */
+    color: #1f2937; /* dark text (almost black) */
+  }
+  

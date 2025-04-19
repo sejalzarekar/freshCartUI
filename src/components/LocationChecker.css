@@ -1,0 +1,18 @@
+.location-bg {
+    min-height: 70vh;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+  }
+  
+  .location-card {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .small-text {
+    font-size: 14px;
+  }
+  

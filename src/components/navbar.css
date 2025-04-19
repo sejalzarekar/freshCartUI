@@ -1,0 +1,38 @@
+/* Navbar.css */
+
+/* Adjust search box */
+.search-container .form-control {
+    border-radius: 0.5rem 0 0 0.5rem;
+    padding: 0.6rem 1rem;
+  }
+  
+  .search-container .btn {
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
+  
+  /* Adjust All Categories button */
+  .btn-success {
+    background-color: #00b517;
+    border: none;
+    font-weight: 600;
+    padding: 8px 20px;
+  }
+  
+  /* Adjust Sign In button */
+  .btn-dark {
+    background-color: #031b4e;
+    border: none;
+    padding: 8px 20px;
+  }
+  
+  /* Nav links spacing */
+  .navbar-bottom .nav-link {
+    padding: 8px 12px;
+    font-weight: 500;
+  }
+  
+  /* Small text on top right */
+  .small {
+    font-size: 0.9rem;
+  }
+  

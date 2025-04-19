@@ -1,0 +1,63 @@
+.category-card {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: #fff;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .category-card:hover {
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+  }
+  
+  /* Custom Arrows */
+  .swiper-button-prev-custom, .swiper-button-next-custom {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background: white;
+    padding: 8px;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+  
+  .swiper-button-prev-custom {
+    left: -20px;
+  }
+  
+  .swiper-button-next-custom {
+    right: -20px;
+  }
+  
+  
+  .swiper-button-prev-custom i,
+  .swiper-button-next-custom i {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Hide swiper scrollbar */
+  .swiper-scrollbar {
+    display: none;
+  }
+  
+  /* Animate Heading */
+  .animate-heading {
+    animation: fadeInUp 1s ease forwards;
+    opacity: 0;
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+  

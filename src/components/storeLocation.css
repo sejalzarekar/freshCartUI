@@ -1,0 +1,36 @@
+.store-icon {
+    font-size: 2rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  
+  .store-card {
+    min-width: 280px;
+    max-width: 100%;
+    flex: 1 1 30%;
+    border-radius: 12px;
+    border: 1px solid #7f7c7c;
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+  
+  .store-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 128, 0, 0.2); /* green-ish shadow */
+    border-color: #28a745; /* Bootstrap green */
+    outline: 2px solid #28a745;
+    outline-offset: -1px;
+  }
+  
+  .store-title {
+    font-weight: 600;
+  }
+  
+  .all-stores {
+    cursor: pointer;
+    font-weight: 500;
+  }
+  

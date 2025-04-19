@@ -1,0 +1,40 @@
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  
+  .product-card img {
+    height: 150px;
+    object-fit: contain;
+  }
+  
+  .badge {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
+  
+  /* Swiper Arrow custom if you want */
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: #28a745; /* Green arrows */
+    font-weight: bold;
+  }
+
+  
+  .custom-swiper-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+    display: flex;
+  }
+  
+  .product-card .fa-star {
+    font-size: 0.8rem;
+  }
+  

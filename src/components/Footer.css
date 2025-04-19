@@ -1,0 +1,27 @@
+.footer {
+  background-color: #001E2B;
+  color: #ccc;
+}
+
+.footer-heading {
+  color: white;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.footer ul li:hover,
+.footer-heading:hover,
+.hover-green:hover,
+.social-icons i:hover {
+  color: #00FF7F !important;
+}
+
+.payment-icons img {
+  margin-left: 8px;
+}
