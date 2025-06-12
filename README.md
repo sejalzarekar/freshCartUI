@@ -1,4 +1,26 @@
+# 🛒 FreshCart UI Clone Project
 
+A responsive front-end clone of the FreshCart homepage built using **React.js**, **Bootstrap**, **HTML**, and **CSS** to demonstrate modern UI/UX practices and component-based architecture.
+
+## 🔗 Live Demo
+👉 [fresh-cart-ui.vercel.app](https://fresh-cart-ui.vercel.app/)
+
+## 🚀 Features
+
+- Fully responsive design using Bootstrap and media queries
+- Component-driven React architecture
+- Clean, modular codebase for easy maintenance
+- UI cloned from FreshCart’s homepage for design practice
+- Improved understanding of layout structuring and styling techniques
+
+## 🛠 Tech Stack
+
+- React.js
+- Bootstrap 5
+- HTML5
+- CSS3
+
+## 📸 Screenshot
 ![1](https://github.com/user-attachments/assets/0400d176-e784-4029-bc6f-d98d498578d0)
 ![2](https://github.com/user-attachments/assets/dbe1a0d2-b37c-463d-8205-bf7dfd7c895c)
 ![3](https://github.com/user-attachments/assets/e3b8e4d9-e3b6-414b-a639-7877f93d3003)
